@@ -1,6 +1,15 @@
 # API de Predicción de Sentimiento
 FastApi
 
+# Asegúrarse de tener Python instalado
+python --version
+
+# Crear el entorno virtual para aislar las dependencias del proyecto
+python -m venv venv
+
+# Activar el entorno virtual
+.\venv\Scripts\Activate
+
 # Instalar dependencias:
 pip install joblib scikit-learn fastapi uvicorn
 
@@ -39,3 +48,4 @@ POST
     "probabilidad": 0.9825
 }
 ```
+
